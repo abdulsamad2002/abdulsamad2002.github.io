@@ -6,10 +6,8 @@ draft: false
 category: [BLUETEAM ]
 tags: [SOC, BLUETEAM, INCIDENT REPONSE]
 image:
-  path: https://c4.wallpaperflare.com/wallpaper/647/19/787/justin-maller-red-triangle-black-wallpaper-preview.jpg
+  path: https://hdqwalls.com/wallpapers/justin-maller-abstract-shape-bn.jpg
   lqip: data:image/webp;base64,
-    
-
 ---
 
 # Incident Response
