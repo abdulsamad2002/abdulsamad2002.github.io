@@ -4,7 +4,7 @@ date: 2024-12-03T01:45:48+05:30
 draft: false
 tag: [CTF, WRITEUP, WEB]
 image:
-  path: https://wallpapers.com/images/high/dark-gaming-1920-x-1200-wallpaper-b7xzhba1emezvf75.webp
+  path: https://images6.alphacoders.com/505/thumb-1920-505818.jpg
   lqip: data:image/webp;base64,
 ---
 
