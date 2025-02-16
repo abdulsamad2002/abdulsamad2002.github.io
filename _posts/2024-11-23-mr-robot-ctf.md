@@ -2,8 +2,8 @@
 title: "Mr Robot CTF"
 date: 2024-12-03T01:45:48+05:30
 draft: false
-categories: [ctf]
-tag: [ctf, red team, web]
+categories: [CTF]
+tag: [CTF, WRITEUP, WEB]
 image:
   path: /assets/pics/mrrobot.jpg
   lqip: data:image/webp;base64,
