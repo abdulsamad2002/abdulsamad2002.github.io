@@ -18,7 +18,7 @@ I’m Abdul Samad, a Computer Science & Engineering student currently in my thir
 In addition to my formal education, I've been pursuing cybersecurity training through various online platforms:
 
 
-- HackTheBox Academy
+- [HackTheBox Academy](/assets/pics/transcript.pdf)
     - Infosec Foundations Path
 
 - [TryHackMe](https://www.tryhackme.com/p/samad1)
