@@ -1,6 +1,6 @@
 ---
 title: "Zero Trust Security Architecture"
-date: 2025-02-15T01:45:48+05:30
+date: 2025-02-14T01:45:48+05:30
 draft: false
 category: [BLUETEAM]
 tags: [SOC, BLUETEAM, INFOSEC]

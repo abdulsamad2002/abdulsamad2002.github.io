@@ -1,7 +1,7 @@
 ---
 title: "Threat Hunting: A Comprehensive Analysis of Proactive Cyber Defence"
 description: A comprehensive analysis of threat hunting as a proactive cyber defense strategy exploring essential frameworks, methodologies, and cutting-edge tools. 
-date: 2025-02-25 19:20:21 +0530
+date: 2025-02-25T19:20:21 +0530
 draft: false
 category: [BLUETEAM ]
 tags: [SOC, BLUETEAM, THREAT]

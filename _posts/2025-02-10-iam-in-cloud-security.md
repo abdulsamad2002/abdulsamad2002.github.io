@@ -1,6 +1,6 @@
 ---
 title: "IAM in Cloud Security"
-date: 2025-02-15T01:45:48+05:30
+date: 2025-02-10T01:40:48+05:30
 draft: false
 category: [BLUETEAM]
 tags: [SOC, BLUETEAM, CLOUD SECURITY]
