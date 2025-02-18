@@ -1,6 +1,6 @@
 ---
 title: "Significance of Bash Scripting"
-date: 2025-02-09T01:45:48+05:30
+date: 2025-02-11T01:45:48+05:30
 draft: false
 category: [SCRIPTING]
 tags: [SOC, BLUETEAM, SCRIPTING, SOAR]
