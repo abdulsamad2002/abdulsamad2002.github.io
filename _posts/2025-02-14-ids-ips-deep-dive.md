@@ -62,12 +62,12 @@ An **Intrusion Prevention System (IPS)** goes a step further by **not only detec
 ### IDS vs. IPS: Key Differences
 ---
 
-| Feature        | IDS (Intrusion Detection System) | IPS (Intrusion Prevention System) |
-|--------------|---------------------------------|---------------------------------|
-| Function    | Monitors and detects threats    | Detects and prevents threats   |
-| Response    | Alerts security teams           | Automatically blocks threats   |
-| Placement   | Passive system                  | Active system                   |
-| Action      | No direct intervention          | Takes immediate action          |
+| Feature   | IDS (Intrusion Detection System) | IPS (Intrusion Prevention System) |
+| --------- | -------------------------------- | --------------------------------- |
+| Function  | Monitors and detects threats     | Detects and prevents threats      |
+| Response  | Alerts security teams            | Automatically blocks threats      |
+| Placement | Passive system                   | Active system                     |
+| Action    | No direct intervention           | Takes immediate action            |
 
 ---
 
