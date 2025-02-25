@@ -19,6 +19,6 @@ On this site, you can find:
 - Updates on my personal projects and achievements in the tech field.
 
 ### Why I Built This Site
-As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others. Through this website I aim to giving back to the community.
+As a computer science and engineering student with a strong interest in cybersecurity, I wanted to create a space to not only document my journey but also to share useful information and resources with others.
 
 I hope this website will be a valuable resource for anyone interested in technology and cyber defense.
