@@ -6,7 +6,7 @@ draft: false
 categories: [BLUE TEAM OPERATIONS]
 tag: [SOC,THREAT INTELLIGENCE, THREAT DETECTIOIN, NETWORK SECURITY, SIEM, EDR, MISP, IDS, IPS, FIREWALL]
 image:
-  path: /assets/pics/18.jpg
+  path: /assets/pics/20.jpg
   lqip: data:image/webp;base64,
 mermaid: true
 ---

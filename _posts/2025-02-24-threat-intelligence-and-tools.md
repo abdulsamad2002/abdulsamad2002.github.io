@@ -6,7 +6,7 @@ draft: false
 categories: [BLUE TEAM OPERATIONS]
 tag: [SOC,THREAT INTELLIGENCE, THREAT DETECTIOIN, NETWORK SECURITY]
 image:
-  path: /assets/pics/21.jpg
+  path: /assets/pics/18.jpg
   lqip: data:image/webp;base64,
     
 ---
