@@ -6,7 +6,7 @@ draft: false
 category: [INFOSEC]
 tags: [SOC, BLUETEAM, INFOSEC]
 image:
-  path: /assets/pics/zero-trust.jpg
+  path: /assets/pics/20.jpg
   lqip: data:image/webp;base64,
 ---
 
