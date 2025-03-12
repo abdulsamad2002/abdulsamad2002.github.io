@@ -1,19 +1,113 @@
-root = true
+import os
+import yaml
+import shutil
+from datetime import datetime
 
-[*]
-charset = utf-8
-indent_style = space
-indent_size = 2
-trim_trailing_whitespace = true
-# Unix-style newlines with a newline ending every file
-end_of_line = lf
-insert_final_newline = true
+# Paths to your local repositories
+chirpy_repo = r"C:\Caraxes\Github Repositories\abdulsamad2002.github.io\_posts"
+hello_friend_repo = r"C:\Caraxes\Github Repositories\site\content\posts"
+stack_repo = r"C:\Caraxes\Github Repositories\site-stack\content\post"
 
-[*.{js,css,scss}]
-quote_type = single
+# Function to find the latest post
+def get_latest_post(repo_path):
+    if not os.path.exists(repo_path):
+        print(f"❌ Directory not found: {repo_path}")
+        return None
+    
+    md_files = [f for f in os.listdir(repo_path) if f.endswith(".md")]
+    if not md_files:
+        print("No Markdown files found!")
+        return None
+    
+    md_files.sort(key=lambda f: os.path.getmtime(os.path.join(repo_path, f)), reverse=True)
+    return os.path.join(repo_path, md_files[0])
 
-[*.{yml,yaml}]
-quote_type = double
+# Function to read and parse front matter
+def read_front_matter(file_path):
+    with open(file_path, "r", encoding="utf-8") as f:
+        content = f.read()
+    
+    if content.startswith("---"):
+        parts = content.split("---", 2)
+        if len(parts) < 3:
+            print("❌ Invalid front matter format.")
+            return None, None
+        
+        front_matter = yaml.safe_load(parts[1])
+        body = parts[2].strip()
+        
+        # Ensure date is in datetime format
+        if isinstance(front_matter.get("date"), str):
+            front_matter["date"] = datetime.fromisoformat(front_matter["date"])
+        
+        print("✅ Front matter extracted:", front_matter)
+        print("✅ Body length:", len(body))
+        
+        return front_matter, body
+    return None, None
 
-[*.md]
-trim_trailing_whitespace = false
+# Function to generate Hugo Hello-Friend-NG front matter
+def convert_to_hello_friend_ng(front_matter):
+    return {
+        "title": front_matter.get("title", ""),
+        "date": front_matter.get("date", "").strftime('%Y-%m-%d'),
+        "draft": front_matter.get("draft", False),
+        "description": front_matter.get("description", ""),
+        "tags": front_matter.get("tags", []),
+        "categories": front_matter.get("categories", []),
+        "image": front_matter.get("image", {}).get("path", ""),
+        "toc": front_matter.get("toc", False),
+    }
+
+# Function to generate Hugo Stack front matter
+def convert_to_stack(front_matter):
+    return {
+        "title": front_matter.get("title", ""),
+        "date": front_matter.get("date", "").strftime('%Y-%m-%d'),
+        "draft": front_matter.get("draft", False),
+        "summary": front_matter.get("description", ""),  # Stack uses "summary"
+        "tags": front_matter.get("tags", []),
+        "categories": front_matter.get("categories", []),
+        "cover": {
+            "image": front_matter.get("image", {}).get("path", ""),
+            "alt": front_matter.get("title", ""),
+            "caption": front_matter.get("description", ""),
+        }
+    }
+
+# Function to save the converted markdown file
+def save_converted_post(target_repo, front_matter, body, theme):
+    os.makedirs(target_repo, exist_ok=True)  # Ensure directory exists
+    
+    filename = f"{front_matter['date']}-{front_matter['title'].replace(' ', '-').lower()}.md"
+    target_path = os.path.join(target_repo, filename)
+    
+    with open(target_path, "w", encoding="utf-8") as f:
+        f.write("---\n")
+        yaml.dump(front_matter, f, default_flow_style=False)
+        f.write("---\n\n")
+        f.write(body)
+    
+    if os.path.exists(target_path):
+        print(f"✅ Post saved successfully for {theme}: {target_path}")
+    else:
+        print(f"❌ Failed to save post for {theme}")
+
+# Main script execution
+latest_post = get_latest_post(chirpy_repo)
+
+if latest_post:
+    front_matter, body = read_front_matter(latest_post)
+
+    if front_matter and body:
+        # Convert for each Hugo theme
+        hello_friend_ng_front_matter = convert_to_hello_friend_ng(front_matter)
+        stack_front_matter = convert_to_stack(front_matter)
+
+        # Save the converted posts
+        save_converted_post(hello_friend_repo, hello_friend_ng_front_matter, body, "Hello-Friend-NG")
+        save_converted_post(stack_repo, stack_front_matter, body, "Stack")
+    else:
+        print("❌ Failed to parse front matter or body is empty.")
+else:
+    print("❌ No valid post found.")
