@@ -1,0 +1,143 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Abdul Samad</title>
+  <subtitle>A technical blog dedicated to cybersecurity with a focus on blue team defense, security operations, and strategies to combat modern digital threats.</subtitle>
+  <updated>2025-03-23T05:41:26+05:30</updated>
+  <author>
+    <name>Abdul Samad</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Abdul Samad </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Collaborative Threat Defense: Tools Working Together in a SOC</title>
+    <link href="http://localhost:4000/posts/soc-tools-integration/" rel="alternate" type="text/html" title="Collaborative Threat Defense: Tools Working Together in a SOC" />
+    <published>2025-02-25T01:45:48+05:30</published>
+  
+    <updated>2025-02-26T18:54:40+05:30</updated>
+  
+    <id>http://localhost:4000/posts/soc-tools-integration/</id>
+    <content type="text/html" src="http://localhost:4000/posts/soc-tools-integration/" />
+    <author>
+      <name>Abdul Samad</name>
+    </author>
+
+  
+    
+    <category term="BLUE TEAM OPERATIONS" />
+    
+  
+
+  <summary>An explanation how SIEM, EDR, MISP, IDS/IPS, and Firewalls collaborate in a SOC, detailing their roles, integration mechanisms, workflows, and best practices for effective threat detection and response.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Threat Intelligence for SOC</title>
+    <link href="http://localhost:4000/posts/threat-intelligence-and-tools/" rel="alternate" type="text/html" title="Threat Intelligence for SOC" />
+    <published>2025-02-24T01:45:48+05:30</published>
+  
+    <updated>2025-02-26T18:42:55+05:30</updated>
+  
+    <id>http://localhost:4000/posts/threat-intelligence-and-tools/</id>
+    <content type="text/html" src="http://localhost:4000/posts/threat-intelligence-and-tools/" />
+    <author>
+      <name>Abdul Samad</name>
+    </author>
+
+  
+    
+    <category term="BLUE TEAM OPERATIONS" />
+    
+  
+
+  <summary>Explores threat intelligence’s role in SOCs, enhancing detection, response, and proactive defense with tools like MISP, SIEM, and SOAR in the evolving cyber threat landscape.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>SOC : Essential Tools for Threat Detection</title>
+    <link href="http://localhost:4000/posts/soc-essential-tools-for-threat-detection/" rel="alternate" type="text/html" title="SOC : Essential Tools for Threat Detection" />
+    <published>2025-02-23T01:45:48+05:30</published>
+  
+    <updated>2025-02-23T01:45:48+05:30</updated>
+  
+    <id>http://localhost:4000/posts/soc-essential-tools-for-threat-detection/</id>
+    <content type="text/html" src="http://localhost:4000/posts/soc-essential-tools-for-threat-detection/" />
+    <author>
+      <name>Abdul Samad</name>
+    </author>
+
+  
+    
+    <category term="BLUE TEAM OPERATIONS" />
+    
+  
+
+  <summary>Essential SOC analyst tools for threat detection, covering SIEM, network monitoring, EDR, threat intelligence, and automation, with real-world insights to enhance security operations and incident response efficiency.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Dealing with DDoS Attacks</title>
+    <link href="http://localhost:4000/posts/dealing-with-ddos-attacks/" rel="alternate" type="text/html" title="Dealing with DDoS Attacks" />
+    <published>2025-02-22T01:45:48+05:30</published>
+  
+    <updated>2025-03-23T05:34:44+05:30</updated>
+  
+    <id>http://localhost:4000/posts/dealing-with-ddos-attacks/</id>
+    <content type="text/html" src="http://localhost:4000/posts/dealing-with-ddos-attacks/" />
+    <author>
+      <name>Abdul Samad</name>
+    </author>
+
+  
+    
+    <category term="INFOSEC" />
+    
+  
+
+  <summary>Dealing with DDoS attacks involves identifying and mitigating malicious traffic floods that overwhelm servers, using tools like firewalls, rate limiting, and CDNs to maintain service availability.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Zero Trust Security Architecture</title>
+    <link href="http://localhost:4000/posts/zero-trust-architecture/" rel="alternate" type="text/html" title="Zero Trust Security Architecture" />
+    <published>2025-02-21T01:45:48+05:30</published>
+  
+    <updated>2025-03-23T05:34:44+05:30</updated>
+  
+    <id>http://localhost:4000/posts/zero-trust-architecture/</id>
+    <content type="text/html" src="http://localhost:4000/posts/zero-trust-architecture/" />
+    <author>
+      <name>Abdul Samad</name>
+    </author>
+
+  
+    
+    <category term="INFOSEC" />
+    
+  
+
+  <summary>Zero Trust Security Architecture is a cybersecurity model that assumes no user or device is inherently trusted, requiring continuous verification, strict access controls, and micro-segmentation to protect networks and data.</summary>
+
+  </entry>
+
+</feed>
+
+
