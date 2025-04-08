@@ -7,6 +7,7 @@ image:
   path: /assets/pics/initiation.jpg
   lqip: data:image/webp;base64,
 toc: false
+pin: true
 ---
 
 This site will be a place where I can share my projects, knowledge, and experiences as I dive deeper into the world of Computer Science and Cybersecurity.
