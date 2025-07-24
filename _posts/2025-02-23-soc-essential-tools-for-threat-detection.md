@@ -5,9 +5,6 @@ date: 2025-02-23T01:45:48+05:30
 draft: false
 categories: [BLUE TEAM OPERATIONS]
 tag: [SOC, SOC, SIEM, EDR, THREAT DETECTIOIN, NETWORK SECURITY]
-image:
-  path: /assets/pics/mr-robot.jpg
-  lqip: data:image/webp;base64,
 ---
 
 

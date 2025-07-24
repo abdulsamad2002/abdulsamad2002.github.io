@@ -5,9 +5,6 @@ date: 2025-02-09T01:45:48+05:30
 draft: false
 category: [INFOSEC]
 tags: [SOC, BLUETEAM, INFOSEC]
-image:
-  path: /assets/pics/cia-triad.jpg
-  lqip: data:image/webp;base64,
 --- 
 # The CIA Triad
 

@@ -5,9 +5,6 @@ date: 2025-02-21T01:45:48+05:30
 draft: false
 category: [INFOSEC]
 tags: [SOC, BLUETEAM, INFOSEC]
-image:
-  path: /assets/pics/20.jpg
-  lqip: data:image/webp;base64,
 ---
 
 # What is Zero Trust Security and Why You Should Adopt It

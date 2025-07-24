@@ -3,9 +3,6 @@ title: "Initiation"
 description : Some words on the inception of this website.
 date: 2024-11-23T01:45:48+05:30
 draft: false
-image:
-  path: /assets/pics/initiation.jpg
-  lqip: data:image/webp;base64,
 toc: false
 ---
 

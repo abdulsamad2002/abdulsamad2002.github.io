@@ -5,9 +5,6 @@ date: 2025-02-22T01:45:48+05:30
 draft: false
 category: [INFOSEC]
 tags: [SOC, BLUETEAM, NETWORK]
-image:
-  path: /assets/pics/ddos-attacks.jpg
-  lqip: data:image/webp;base64,
 ---
 
 # Dealing with DDoS Attacks: Blue Team Strategies

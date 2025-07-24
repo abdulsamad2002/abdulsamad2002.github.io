@@ -5,9 +5,6 @@ date: 2025-02-20T19:20:21 +0530
 draft: false
 category: [BLUE TEAM OPERATIONS, ENDPOINT SECURITY ]
 tags: [SOC, BLUETEAM, THREAT]
-image:
-  path: /assets/pics/threat.jpg
-  lqip: data:image/webp;base64,
 ---
 
 # Implementing Threat Hunting as a Proactive Blue Team Strategy: Tools, Techniques, and Best Practices

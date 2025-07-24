@@ -5,9 +5,6 @@ date: 2025-02-10T01:40:48+05:30
 draft: false
 category: [INFOSEC]
 tags: [SOC, BLUETEAM, CLOUD SECURITY]
-image:
-  path: /assets/pics/iam.jpg
-  lqip: data:image/webp;base64,
 ---
 # The Role of Identity and Access Management (IAM) in Cloud Security
 

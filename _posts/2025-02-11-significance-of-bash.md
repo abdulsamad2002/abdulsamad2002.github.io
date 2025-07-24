@@ -5,9 +5,6 @@ date: 2025-02-11T01:45:48+05:30
 draft: false
 category: [TOOLS]
 tags: [SOC, BLUETEAM, SCRIPTING, SOAR]
-image:
-  path: /assets/pics/bash.jpg
-  lqip: data:image/webp;base64,
 ---
 
 # The Importance of Bash Automation in a SOC

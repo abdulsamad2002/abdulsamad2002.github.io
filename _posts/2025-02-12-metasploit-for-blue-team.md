@@ -5,9 +5,6 @@ description: Metasploit is a penetration testing framework that helps blue teams
 draft: false
 category: [TOOLS]
 tags: [SOC, BLUETEAM, INFOSEC, THREAT]
-image:
-  path: /assets/pics/metasploit.jpg
-  lqip: data:image/webp;base64,
 ---
 # Metasploit for SOC Analysts: Leveraging Offensive Tools for Defensive Security
 

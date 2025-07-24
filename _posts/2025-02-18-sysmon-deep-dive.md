@@ -5,9 +5,6 @@ date: 2025-02-18T19:20:21 +0530
 draft: false
 category: [BLUE TEAM OPERATIONS, ENDPOINT SECURITY]
 tags: [SOC, BLUETEAM, THREAT MONITORING, WINDOWS]
-image:
-  path: /assets/pics/16.jpg
-  lqip: data:image/webp;base64,
   
 ---
 # Understanding Sysmon: A Key Tool for Windows Incident Response

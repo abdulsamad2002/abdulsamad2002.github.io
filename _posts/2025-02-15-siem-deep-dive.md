@@ -5,9 +5,6 @@ date: 2025-02-15 19:20:21 +0530
 draft: false
 category: [BLUE TEAM OPERATIONS, THREAT MONITORING & DETECTION]
 tags: [SOC, BLUETEAM, TOOLS]
-image:
-  path: /assets/pics/siem.jpg
-  lqip: data:image/webp;base64,
 ---
 # SIEM: Its Working and Uses in a SOC
 

@@ -5,9 +5,6 @@ date: 2025-02-24T01:45:48+05:30
 draft: false
 categories: [BLUE TEAM OPERATIONS]
 tag: [SOC,THREAT INTELLIGENCE, THREAT DETECTIOIN, NETWORK SECURITY]
-image:
-  path: /assets/pics/18.jpg
-  lqip: data:image/webp;base64,
     
 ---
 # Threat Intelligence for SOC: Empowering Cybersecurity in a Dynamic Threat Landscape

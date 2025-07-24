@@ -5,9 +5,6 @@ date: 2025-02-17T01:45:48+05:30
 draft: false
 category: [BLUE TEAM OPERATIONS, INCIDENT RESPONSE]
 tags: [SOC, BLUETEAM, SOAR, SIEM]
-image:
-  path: /assets/pics/ir-td.jpg
-  lqip: data:image/webp;base64,
     
 ---
 

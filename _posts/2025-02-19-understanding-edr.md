@@ -5,9 +5,6 @@ date: 2025-02-19T01:45:48+05:30
 draft: false
 category: [BLUE TEAM OPERATIONS, ENDPOINT SECURITY]
 tags: [SOC, BLUETEAM, INFOSEC, TOOLS]
-image:
-  path: /assets/pics/edr.jpg
-  lqip: data:image/webp;base64,
 ---
 
 # Understanding Endpoint Detection and Response (EDR): A Deep Dive

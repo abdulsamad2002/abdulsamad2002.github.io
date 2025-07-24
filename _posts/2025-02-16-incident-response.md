@@ -5,9 +5,6 @@ date: 2025-02-16 19:20:21 +0530
 draft: false
 category: [BLUE TEAM OPERATIONS, INCIDENT RESPONSE]
 tags: [SOC, BLUETEAM, INCIDENT REPONSE]
-image:
-  path: /assets/pics/incident-response.jpg
-  lqip: data:image/webp;base64,
 ---
 
 # Incident Response

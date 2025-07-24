@@ -5,9 +5,6 @@ date: 2025-02-14 19:20:21 +0530
 draft: false
 category: [BLUE TEAM OPERATIONS, THREAT MONITORING & DETECTION]
 tags: [SOC, BLUETEAM, NETWORK, THREAT MONITORING]
-image:
-  path: /assets/pics/ids-ips.jpg
-  lqip: data:image/webp;base64,
 ---
 # Threat Monitoring Using IDS/IPS: Strengthening Cyber Defenses
 
